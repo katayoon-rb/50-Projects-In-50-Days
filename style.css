@@ -25,6 +25,7 @@ body {
 
 .title {
     margin-top: 80px;
+    margin: auto 30px;
     font-size: 35px;
 }
 .container {
@@ -101,5 +102,6 @@ body {
         margin: 20px;
     }
     .project {
+        height: max-content;
         justify-content: center;
 }
