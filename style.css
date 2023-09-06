@@ -100,4 +100,6 @@ body {
         flex-direction: column;
         margin: 20px;
     }
+    .project {
+        justify-content: center;
 }
