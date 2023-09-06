@@ -104,4 +104,8 @@ body {
     .project {
         height: max-content;
         justify-content: center;
+    }
+    .project h1 {
+        margin: 0;
+    }
 }
