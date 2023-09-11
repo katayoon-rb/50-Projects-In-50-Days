@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+    
+    .split.left,
+    .split.right {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .split.left {
+            left: 0;
+            background-image: url('https://www.lucypetproducts.com/wp-content/uploads/2020/01/Golden4.jpg.webp');
+        }
+
+
+        .split.right {
+            right: 0;
+            background-image: url('https://media.os.fressnapf.com/cms/2020/08/ratgeber_hund_rasse_portraits_siberian-husky_1_1200x527..jpg?t=seoimg_703');
+        }
+            
+
+    .split.left::before,
+    .split.right::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+        .split.left::before { background-color: rgba(35, 100, 114, 0.5); }
+        .split.right::before { background-color: rgba(114, 81, 35, 0.5); }
+
+
+
+    h1,
+    .btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    h1 {
+        font-size: 4rem;
+        top: 65%;
+        white-space: nowrap;
+    }
+
+        .split.left h1 {
+            color: rgb(20, 56, 65);
+            text-shadow: 0 0 5px rgb(67, 129, 145);
+        }
+        .split.right h1 {
+            color: rgb(69, 49, 20);
+            text-shadow: 0 0 5px rgb(164, 128, 73);
+        }
+
+
+
+    .btn {
+        top: 60%;
+        font-size: 1.15rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        
+        border: solid 0.2rem;
+        width: 12rem;
+        padding: 1rem;
+    }
+
+        .split.left .btn {
+            border-color: rgb(67, 129, 145);
+            color: rgb(67, 129, 145);
+            box-shadow: 0 0 5px rgb(20, 56, 65);
+        }
+        .split.right .btn {
+            border-color: rgb(164, 128, 73);
+            color: rgb(164, 128, 73);
+            box-shadow: 0 0 5px rgb(69, 49, 20);
+        }
+
+            .split.left .btn:hover {
+                background-color: rgba(35, 100, 114, 1);
+                border-color: rgb(20, 56, 65);
+                color: rgb(20, 56, 65);
+            }
+            .split.right .btn:hover {
+                background-color: rgba(114, 81, 35, 1);
+                border-color: rgb(69, 49, 20);
+                color: rgb(69, 49, 20);
+            }
+    
+
+
+.hover-left .left { width: 75%; }
+.hover-left .right { width: 25%; }
+
+.hover-right .left { width: 25%; }
+.hover-right .right { width: 75%; }
+
+
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+    transition: all 1000ms ease-in-out;
+}
+
+
+
+@media (max-width: 800px) {
+    h1 { font-size: 2rem; top: 70%; }
+    .btn { width: 12rem; padding: 1.2rem; }
+}
