@@ -2,8 +2,6 @@
 
 Welcome to the "50 Projects In 50 Days" course on Udemy! 🎉
 
-![Course Logo](course_logo.png)
-
 ## Course Overview 📚
 
 This course is designed to supercharge your web development skills by guiding you through the creation of 50 exciting projects using HTML, CSS, and JavaScript. Whether you're a beginner or an experienced developer, you'll find valuable lessons and hands-on experience to sharpen your skills.
@@ -62,8 +60,6 @@ This course is led by an experienced web developer passionate about teaching and
 Dive into the world of web development, and let's build 50 amazing projects together! 💪
 
 Happy coding! 🖥️💻🚀
-
-![Happy Coding](happy_coding.gif)
 
 ---
 
