@@ -2,11 +2,12 @@
 
 
 body,
-.container>div {
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 * { box-sizing: border-box; }
@@ -87,7 +88,7 @@ body {
         width: 100%;
         background-size: cover;
     }
-    .container>div { width: 100%; flex-direction: column; }
+    .container { width: 100%; flex-direction: column; }
     .project { height: max-content; justify-content: center; }
     .project h1 { margin-top: 0; }
 }
