@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    z-index: -1;
+    background-image: url('https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: blur(20px);
+
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    right: -20px;
+    left: -20px;
+}
