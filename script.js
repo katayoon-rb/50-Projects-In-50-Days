@@ -41,6 +41,7 @@ const files = [
     'Password Strength Background',
     '3D Background Boxes',
     'Verify Account UI',
+    // ADD //
 ]
 
 
