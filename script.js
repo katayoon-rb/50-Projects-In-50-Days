@@ -41,7 +41,15 @@ const files = [
     'Password Strength Background',
     '3D Background Boxes',
     'Verify Account UI',
-    // ADD //
+    'Live User Filter',
+    'Feedback UI Design',
+    'Custom Range Slider',
+    'Netflix Mobile Navigation',
+    // 'Quiz App',
+    // 'Testimonial Box Switcher',
+    // 'Random Image Feed',
+    // 'Todo List',
+    // 'Insect Catch Game'
 ]
 
 
