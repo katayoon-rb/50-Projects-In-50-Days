@@ -45,11 +45,11 @@ const files = [
     'Feedback UI Design',
     'Custom Range Slider',
     'Netflix Mobile Navigation',
-    // 'Quiz App',
-    // 'Testimonial Box Switcher',
-    // 'Random Image Feed',
-    // 'Todo List',
-    // 'Insect Catch Game'
+    'Quiz App',
+    'Testimonial Box Switcher',
+    'Random Image Feed',
+    'Todo List',
+    'Insect Catch Game'
 ]
 
 
